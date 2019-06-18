@@ -3,15 +3,47 @@
     <head>
         <meta charset="utf8">
         <link rel="stylesheet" href="./global.css">
+        <title>CSS Assignment</title>
     </head>
 
     <body>
-        <figure>
-            <img src="./Images/hire-me1.jpg"/>
-            <img src="./Images/jobs-1.jpg"/>
-            <img src="./Images/awesome-job.jpg"/>
-            <img src="./Images/thumbs-uo.gif"/>
-            <figcaption>Hire Me </figcaption>
-        </figure>
+        <main>
+            <header>
+                <nav>
+                        <div class="nav-fixed">
+                                <a href="#home">Fake Home Link</a>
+                                <a href="#news">Fake News Link</a>
+                                <a href="#contact">Fake Contact Link</a>
+                                <a href="#about">Fake About Link</a>
+                        </div> 
+                </nav>
+            </header>
+            <section class="container">
+                <figure class="column">
+                    <img src="./Images/hire-me1.jpg"/>
+                </figure>
+                <figure class="column">
+                        <img src="./Images/jobs-1.jpg"/>
+                </figure>
+                <figure class="column">
+                    <img src="./Images/awesome-job.jpg"/>
+                </figure>
+                <figure class="column">
+                    <img id="box-shadow" src="./Images/thumbs-uo.gif"/>
+                    <figcaption>Image With the Box Shadow</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h1> A SECTION WITH HOVER EFFECTS</h1>
+
+                <a href="#blank">LINK WITHOUT HOVER EFFECTS <br></a>
+                <a href="#blank" class="hover">LINK WITH HOVER EFFECTS</a>
+                <a href="#blank">
+                        <img id="zoomed-image" src="./Images/zoom.jpg"/>
+                </a>
+            </section>
+            <footer id="footer">That's it Folks</footer>
+        </main> 
     </body>
 </html>
