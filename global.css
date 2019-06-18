@@ -12,6 +12,38 @@
     padding: 15px 5%;
 }
 
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#box-shadow{
+    box-shadow: 10px 5px 5px red;
+}
+
+.hover:hover{
+  background-color: yellow;
+}
+
+#zoomed-image:hover{
+    transform: scale(1.5);
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    width: 250px;
+    height: auto;
+    height: auto;
+    padding: 10px;
+}
+
 #footer{
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
 }
